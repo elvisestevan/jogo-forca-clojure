@@ -24,3 +24,24 @@ perdeu
 exit
 (perdeu)
 exit
+(perdeu)
+(require '[forca.core :as forca] :reload)
+(require '[jogo-forca.core :as forca] :reload)
+(forca/jogo 6)
+(require '[jogo-forca.core :as forca] :reload)
+(forca/jogo 6)
+(require '[jogo-forca.core :as forca] :reload)
+(forca/jogo 6)
+(not= 10 10)
+exit
+(fib 0)
+(require '[jogo-forca.core :as forca] :reload)
+(fib 0)
+(fib 1)
+(fib 2)
+(fib 3)
+(fib 4)
+(fib 5)
+(fib 6)
+(fib 20)
+exit
