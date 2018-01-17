@@ -116,3 +116,17 @@ def palavra #{"A" "L" "U" "R"}
 (mult7 le-letra!)
 (mult7 (le-letra!))
 exit
+(require '[jogo-forca.core :as forca] :reload)
+(forca/jogo 2 "MELANCIA" #{})
+(require '[jogo-forca.core :as forca] :reload)
+(forca/jogo 2 "MELANCIA" #{})
+(require '[jogo-forca.core :as forca] :reload)
+(forca/jogo 2 "MELANCIA" #{})
+(require '[jogo-forca.core :as forca] :reload)
+(forca/jogo 2 "MELANCIA" #{})
+(require '[jogo-forca.core :as forca] :reload)
+(forca/fibrecur 5)
+(require '[jogo-forca.core :as forca] :reload)
+(forca/soma 5)
+(forca/soma 6)
+exit
