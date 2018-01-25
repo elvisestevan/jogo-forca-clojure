@@ -130,3 +130,5 @@ exit
 (forca/soma 5)
 (forca/soma 6)
 exit
+(require '[jogo-forca.core :as forca] :reload)
+(forca/jogo 2 "MELANCIA" #{})
