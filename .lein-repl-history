@@ -132,3 +132,14 @@ exit
 exit
 (require '[jogo-forca.core :as forca] :reload)
 (forca/jogo 2 "MELANCIA" #{})
+(def carros [50000.0, 60000.0])
+(map (x (* x 2)) carros)
+(map ([x] (* x 2)) carros)
+(map x (* x 2) carros)
+(map (x (* x 2)) carros)
+(map ([x] (* x 2)) carros)
+(map (fn [x] (* x 2)) carros)
+(->> carros (map (fn [x] (* x 2))) (map (fn [x] (- x 200))))
+(require '[jogo-forca.core :as forca] :reload)
+lein run
+exit
